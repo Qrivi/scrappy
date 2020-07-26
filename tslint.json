@@ -1,0 +1,14 @@
+{
+    "defaultSeverity": "error",
+    "extends": "tslint-config-standard",
+    "jsRules": {},
+    "rules": {
+        "curly": [true, "ignore-same-line"],
+        "no-console": {
+            "severity": "warning",
+            "options": ["warning", "info", "log", "time", "timeEnd", "trace"]
+        },
+        "semicolon": [true, "always"]
+    },
+    "rulesDirectory": []
+}
