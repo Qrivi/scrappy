@@ -1,5 +1,6 @@
 .env
-data/
+data/log/
+data/latest.png
 
 # Build directory
 out/

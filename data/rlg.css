@@ -1,0 +1,37 @@
+body > header,
+body > footer,
+body> div,
+main .rlg-item-shop__header,
+main .rlg-item-shop__timer,
+main .rlg-item-shop__meta > a{
+  display: none !important;
+}
+
+body > main {
+  background: #37393F;
+}
+
+body > main h2 {
+  color: #fff;
+}
+
+body > main .rlg-item-shop{
+  position:relative;
+  margin: 0;
+}
+body > main div.rlg-item-shop:after{
+  content: 'rocket-league.com/items/shop';
+  color: #aaa;
+  position: absolute;
+  right: 20px;
+  bottom: -10px;
+}
+
+body > main .rlg-item-shop__featured{
+  margin: 0 0 15px;
+}
+
+body > main .rlg-item-shop__featured .rlg-item-shop__image-meta{
+  bottom: 36px !important;
+}
+

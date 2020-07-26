@@ -31,7 +31,7 @@ export class Browser {
 
     // Make screenshot
     const screenshot = await page.screenshot({ encoding: 'binary' });
-    // await page.screenshot({ path: './data/latestscreenshot.png' });
+    // await page.screenshot({ path: './data/latest.png' });
     await page.close();
 
     return screenshot;
